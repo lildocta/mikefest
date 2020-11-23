@@ -1,0 +1,29 @@
+h2{
+    text-align: center;
+    font-family: 'Pangolin', cursive;
+    color:white;
+    margin-top:20px;
+}
+
+.background{
+    background-image: url(/images/mikefest_background.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 1200px) {
+    .background {
+        background-image: url(/images/mike_mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    h2{
+        text-align: center;
+        font-family: 'Pangolin', cursive;
+        color:black;
+    }
+}
+
+nav{
+    background-color:rgba(104, 104, 104, 0.253);
+}
